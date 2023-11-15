@@ -1,8 +1,10 @@
-import { useContext } from 'react'
 import { TransactionContext } from '../contexts/TransactionsContext'
+import { useContextSelector } from 'use-context-selector'
 
 export function useSummary() {
-  const { transactions } = useContext(TransactionContext)
+  const transactions = useContextSelector(TransactionContext, (context) => {
+    return context.transactions
+  })
 
   // reduzir o array de transactions a um objeto { income: number, outcome: number, total: number }
   // acc = objeto inicial
