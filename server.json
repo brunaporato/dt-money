@@ -1,5 +1,5 @@
 {
-  "transactions" : [
+  "transactions": [
     {
       "id": 1,
       "description": "Desenvolvimento de site",
@@ -23,6 +23,30 @@
       "category": "Educação",
       "price": 1980,
       "createdAt": "2023-11-13T20:17:00.069Z"
+    },
+    {
+      "description": "Desenvolvimento de app",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2023-11-15T14:34:19.469Z",
+      "id": 4
+    },
+    {
+      "description": "Pastel",
+      "price": 5,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2023-11-15T15:27:28.410Z",
+      "id": 5
+    },
+    {
+      "description": "Iogurte de Banana",
+      "price": 4,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2023-11-15T15:36:27.694Z",
+      "id": 6
     }
   ]
 }
