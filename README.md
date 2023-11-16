@@ -20,8 +20,6 @@ This project was developed as part of the React specialization at Rocketseat, le
 - Styled-components
 - Radix UI
 - Zod
-- Getting Started
-- To explore DT Money, follow these steps:
 
 ## How to Contribute
 If you'd like to contribute to DT Money, follow these steps:
