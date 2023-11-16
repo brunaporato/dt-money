@@ -3,6 +3,8 @@
 
 DT Money is a web application dedicated to managing your financial life seamlessly. Easily log your expenses and income, categorize transactions, and gain insights into your financial activities. The application provides a concise summary of expenses, income, and the overall total at the top of the page. Additionally, it includes a search functionality for quick and efficient navigation.
 
+![print screen of web app](./src/assets/project-print.png)
+
 ## Key Features
 
 Expense and Income Tracking: Log and categorize your financial transactions.
