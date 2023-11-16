@@ -1,27 +1,43 @@
-# React + TypeScript + Vite
+![two green triangles making a inseption](./src/assets/ignite-logo.svg)
+# DTMoney
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DT Money is a web application dedicated to managing your financial life seamlessly. Easily log your expenses and income, categorize transactions, and gain insights into your financial activities. The application provides a concise summary of expenses, income, and the overall total at the top of the page. Additionally, it includes a search functionality for quick and efficient navigation.
 
-Currently, two official plugins are available:
+## Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Expense and Income Tracking: Log and categorize your financial transactions.
+Summary Overview: View a comprehensive summary of expenses, income, and total balance at the top of the page.
+Search Functionality: Easily search and locate specific transactions.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+This project was developed as part of the React specialization at Rocketseat, leveraging the following technologies:
 
-- Configure the top-level `parserOptions` property like this:
+- React
+- TypeScript
+- Styled-components
+- Radix UI
+- Zod
+- Getting Started
+- To explore DT Money, follow these steps:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## How to Contribute
+If you'd like to contribute to DT Money, follow these steps:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Fork the repository on GitHub.
+2. Clone your fork locally.
+3. Create a new branch for your feature or bug fix.
+4. Make your changes and commit them with descriptive messages.
+5. Push your changes to your fork.
+6. Submit a pull request to the main repository.
+
+## Acknowledgments
+This project was crafted with passion and dedication during the React specialization at Rocketseat.
+Feel free to explore the application, and your feedback and contributions are highly appreciated!
+<br />
+<br />
+_________________________
+<!-- <small> -->
+   made with ❤️ by
+   [brunaporato](https://www.linkedin.com/in/brunaporato)
+<!-- </small> -->
